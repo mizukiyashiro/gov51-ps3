@@ -1,0 +1,21 @@
+---
+title: "Problem Set 3: Prediction and Regularization"
+author: "Mizuki Yashiro"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+Github Link: https://github.com/mizukiyashiro/gov51-ps3.git
+
+# 1. Setup and Data Exploration
+
+## 1.1: 
+```{r}
+library(tidyverse)
+library(glmnet)
+library(knitr)
+
+compas <- read_csv("data/compas_clean.csv")
+```
+
+
+
